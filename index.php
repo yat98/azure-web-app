@@ -26,10 +26,10 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "azurewebsubapp.database.windows.net";
+    $host = "tcp:azurewebsubapp.database.windows.net,1433";
     $user = "hidayat";
     $pass = "Yatadmin_";
-    $db = "Registration";
+    $db = "azurewebsubapps";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);

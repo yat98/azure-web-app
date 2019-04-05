@@ -28,7 +28,7 @@
  <?php
     $host = "tcp:azurewebsubapp.database.windows.net,1433";
     $user = "hidayat";
-    $pass = "Yatadmin_a";
+    $pass = "Yatadmin_";
     $db = "azurewebsubapps";
 
     try {

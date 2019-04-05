@@ -29,7 +29,7 @@
     $host = "azurewebsubapp.database.windows.net";
     $user = "hidayat";
     $pass = "Yatadmin_";
-    $db = "[dbo].[Registration]";
+    $db = "Registration";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
